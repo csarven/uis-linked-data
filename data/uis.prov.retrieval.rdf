@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:sdmx="http://purl.org/linked-data/sdmx#">
+
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204818">
+                    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:18Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:19Z</prov:endedAtTime>
+                    <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+                    <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+                    <prov:used>
+                        <rdf:Description rdf:about="http://data.uis.unesco.org/restsdmx/sdmx.ashx/GetData/EDULIT_DS">
+                            <foaf:page rdf:resource="http://data.uis.unesco.org/Index.aspx?DataSetCode=EDULIT_DS"/>
+                            <dcterms:identifier>EDULIT_DS</dcterms:identifier>
+                            <dcterms:title>Education (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:used>
+                    <prov:generated>
+                        <rdf:Description rdf:about="http://uis.270a.info/data/EDULIT_DS.xml">
+                            <dcterms:identifier></dcterms:identifier>
+                            <dcterms:title>Education (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:generated>
+                    <rdfs:label xml:lang="en">Retrieved EDULIT_DS Data</rdfs:label>
+                    <rdfs:comment xml:lang="en">Data of dataset EDULIT_DS retrieved from source and saved to local filesystem.</rdfs:comment>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/dataset/EDULIT_DS">
+                    <dcterms:title>Education (full dataset)</dcterms:title>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204820">
+                    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:20Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:21Z</prov:endedAtTime>
+                    <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+                    <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+                    <prov:used>
+                        <rdf:Description rdf:about="http://data.uis.unesco.org/restsdmx/sdmx.ashx/GetDataStructure/EDULIT_DS">
+                            <foaf:page rdf:resource="http://data.uis.unesco.org/Index.aspx?DataSetCode=EDULIT_DS"/>
+                            <dcterms:identifier>EDULIT_DS</dcterms:identifier>
+                            <dcterms:title>Education (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:used>
+                    <prov:generated>
+                        <rdf:Description rdf:about="http://uis.270a.info/data/EDULIT_DS.Structure.xml">
+                            <dcterms:identifier></dcterms:identifier>
+                            <dcterms:title>Education (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:generated>
+                    <rdfs:label xml:lang="en">Retrieved EDULIT_DS Structure</rdfs:label>
+                    <rdfs:comment xml:lang="en">Structure of dataset EDULIT_DS retrieved from source and saved to local filesystem.</rdfs:comment>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204822">
+                    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:22Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:23Z</prov:endedAtTime>
+                    <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+                    <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+                    <prov:used>
+                        <rdf:Description rdf:about="http://data.uis.unesco.org/restsdmx/sdmx.ashx/GetData/SCN_DS">
+                            <foaf:page rdf:resource="http://data.uis.unesco.org/Index.aspx?DataSetCode=SCN_DS"/>
+                            <dcterms:identifier>SCN_DS</dcterms:identifier>
+                            <dcterms:title>Science, technology and innovation (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:used>
+                    <prov:generated>
+                        <rdf:Description rdf:about="http://uis.270a.info/data/SCN_DS.xml">
+                            <dcterms:identifier></dcterms:identifier>
+                            <dcterms:title>Science, technology and innovation (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:generated>
+                    <rdfs:label xml:lang="en">Retrieved SCN_DS Data</rdfs:label>
+                    <rdfs:comment xml:lang="en">Data of dataset SCN_DS retrieved from source and saved to local filesystem.</rdfs:comment>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/dataset/SCN_DS">
+                    <dcterms:title>Science, technology and innovation (full dataset)</dcterms:title>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204824">
+                    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:24Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:25Z</prov:endedAtTime>
+                    <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+                    <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+                    <prov:used>
+                        <rdf:Description rdf:about="http://data.uis.unesco.org/restsdmx/sdmx.ashx/GetDataStructure/SCN_DS">
+                            <foaf:page rdf:resource="http://data.uis.unesco.org/Index.aspx?DataSetCode=SCN_DS"/>
+                            <dcterms:identifier>SCN_DS</dcterms:identifier>
+                            <dcterms:title>Science, technology and innovation (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:used>
+                    <prov:generated>
+                        <rdf:Description rdf:about="http://uis.270a.info/data/SCN_DS.Structure.xml">
+                            <dcterms:identifier></dcterms:identifier>
+                            <dcterms:title>Science, technology and innovation (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:generated>
+                    <rdfs:label xml:lang="en">Retrieved SCN_DS Structure</rdfs:label>
+                    <rdfs:comment xml:lang="en">Structure of dataset SCN_DS retrieved from source and saved to local filesystem.</rdfs:comment>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204826">
+                    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:26Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:27Z</prov:endedAtTime>
+                    <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+                    <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+                    <prov:used>
+                        <rdf:Description rdf:about="http://data.uis.unesco.org/restsdmx/sdmx.ashx/GetData/CUL_DS">
+                            <foaf:page rdf:resource="http://data.uis.unesco.org/Index.aspx?DataSetCode=CUL_DS"/>
+                            <dcterms:identifier>CUL_DS</dcterms:identifier>
+                            <dcterms:title>Feature films (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:used>
+                    <prov:generated>
+                        <rdf:Description rdf:about="http://uis.270a.info/data/CUL_DS.xml">
+                            <dcterms:identifier></dcterms:identifier>
+                            <dcterms:title>Feature films (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:generated>
+                    <rdfs:label xml:lang="en">Retrieved CUL_DS Data</rdfs:label>
+                    <rdfs:comment xml:lang="en">Data of dataset CUL_DS retrieved from source and saved to local filesystem.</rdfs:comment>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/dataset/CUL_DS">
+                    <dcterms:title>Feature films (full dataset)</dcterms:title>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204828">
+                    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:28Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:29Z</prov:endedAtTime>
+                    <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+                    <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+                    <prov:used>
+                        <rdf:Description rdf:about="http://data.uis.unesco.org/restsdmx/sdmx.ashx/GetDataStructure/CUL_DS">
+                            <foaf:page rdf:resource="http://data.uis.unesco.org/Index.aspx?DataSetCode=CUL_DS"/>
+                            <dcterms:identifier>CUL_DS</dcterms:identifier>
+                            <dcterms:title>Feature films (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:used>
+                    <prov:generated>
+                        <rdf:Description rdf:about="http://uis.270a.info/data/CUL_DS.Structure.xml">
+                            <dcterms:identifier></dcterms:identifier>
+                            <dcterms:title>Feature films (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:generated>
+                    <rdfs:label xml:lang="en">Retrieved CUL_DS Structure</rdfs:label>
+                    <rdfs:comment xml:lang="en">Structure of dataset CUL_DS retrieved from source and saved to local filesystem.</rdfs:comment>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204830">
+                    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:30Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:31Z</prov:endedAtTime>
+                    <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+                    <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+                    <prov:used>
+                        <rdf:Description rdf:about="http://data.uis.unesco.org/restsdmx/sdmx.ashx/GetData/CAI_DS">
+                            <foaf:page rdf:resource="http://data.uis.unesco.org/Index.aspx?DataSetCode=CAI_DS"/>
+                            <dcterms:identifier>CAI_DS</dcterms:identifier>
+                            <dcterms:title>Communication and information (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:used>
+                    <prov:generated>
+                        <rdf:Description rdf:about="http://uis.270a.info/data/CAI_DS.xml">
+                            <dcterms:identifier></dcterms:identifier>
+                            <dcterms:title>Communication and information (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:generated>
+                    <rdfs:label xml:lang="en">Retrieved CAI_DS Data</rdfs:label>
+                    <rdfs:comment xml:lang="en">Data of dataset CAI_DS retrieved from source and saved to local filesystem.</rdfs:comment>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/dataset/CAI_DS">
+                    <dcterms:title>Communication and information (full dataset)</dcterms:title>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204832">
+                    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:32Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:33Z</prov:endedAtTime>
+                    <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+                    <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+                    <prov:used>
+                        <rdf:Description rdf:about="http://data.uis.unesco.org/restsdmx/sdmx.ashx/GetDataStructure/CAI_DS">
+                            <foaf:page rdf:resource="http://data.uis.unesco.org/Index.aspx?DataSetCode=CAI_DS"/>
+                            <dcterms:identifier>CAI_DS</dcterms:identifier>
+                            <dcterms:title>Communication and information (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:used>
+                    <prov:generated>
+                        <rdf:Description rdf:about="http://uis.270a.info/data/CAI_DS.Structure.xml">
+                            <dcterms:identifier></dcterms:identifier>
+                            <dcterms:title>Communication and information (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:generated>
+                    <rdfs:label xml:lang="en">Retrieved CAI_DS Structure</rdfs:label>
+                    <rdfs:comment xml:lang="en">Structure of dataset CAI_DS retrieved from source and saved to local filesystem.</rdfs:comment>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204834">
+                    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:34Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:35Z</prov:endedAtTime>
+                    <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+                    <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+                    <prov:used>
+                        <rdf:Description rdf:about="http://data.uis.unesco.org/restsdmx/sdmx.ashx/GetData/DEMO_DS">
+                            <foaf:page rdf:resource="http://data.uis.unesco.org/Index.aspx?DataSetCode=DEMO_DS"/>
+                            <dcterms:identifier>DEMO_DS</dcterms:identifier>
+                            <dcterms:title>Demographic and socio-economic (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:used>
+                    <prov:generated>
+                        <rdf:Description rdf:about="http://uis.270a.info/data/DEMO_DS.xml">
+                            <dcterms:identifier></dcterms:identifier>
+                            <dcterms:title>Demographic and socio-economic (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:generated>
+                    <rdfs:label xml:lang="en">Retrieved DEMO_DS Data</rdfs:label>
+                    <rdfs:comment xml:lang="en">Data of dataset DEMO_DS retrieved from source and saved to local filesystem.</rdfs:comment>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/dataset/DEMO_DS">
+                    <dcterms:title>Demographic and socio-economic (full dataset)</dcterms:title>
+                </rdf:Description>
+
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204836">
+                    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:36Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:37Z</prov:endedAtTime>
+                    <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+                    <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+                    <prov:used>
+                        <rdf:Description rdf:about="http://data.uis.unesco.org/restsdmx/sdmx.ashx/GetDataStructure/DEMO_DS">
+                            <foaf:page rdf:resource="http://data.uis.unesco.org/Index.aspx?DataSetCode=DEMO_DS"/>
+                            <dcterms:identifier>DEMO_DS</dcterms:identifier>
+                            <dcterms:title>Demographic and socio-economic (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:used>
+                    <prov:generated>
+                        <rdf:Description rdf:about="http://uis.270a.info/data/DEMO_DS.Structure.xml">
+                            <dcterms:identifier></dcterms:identifier>
+                            <dcterms:title>Demographic and socio-economic (full dataset)</dcterms:title>
+                        </rdf:Description>
+                    </prov:generated>
+                    <rdfs:label xml:lang="en">Retrieved DEMO_DS Structure</rdfs:label>
+                    <rdfs:comment xml:lang="en">Structure of dataset DEMO_DS retrieved from source and saved to local filesystem.</rdfs:comment>
+                </rdf:Description>
+
+</rdf:RDF>

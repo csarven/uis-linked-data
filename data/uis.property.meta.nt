@@ -1,0 +1,4 @@
+<http://uis.270a.info/measure/1.0/OBS_VALUE> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/linked-data/sdmx/2009/measure#obsValue> .
+<http://uis.270a.info/dimension/1.0/LOCATION> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/linked-data/sdmx/2009/dimension#refArea> .
+<http://uis.270a.info/dimension/1.0/TIME_PERIOD> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> .
+<http://uis.270a.info/attribute/1.0/TIME_FORMAT> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/linked-data/sdmx/2009/attribute#timeFormat> .
