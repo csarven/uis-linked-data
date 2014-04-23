@@ -7,10 +7,10 @@
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:sdmx="http://purl.org/linked-data/sdmx#">
 
-                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204818">
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140414163904">
                     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:18Z</prov:startedAtTime>
-                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:19Z</prov:endedAtTime>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:39:04Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:40:26Z</prov:endedAtTime>
                     <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
                     <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
                     <prov:used>
@@ -34,10 +34,10 @@
                     <dcterms:title>Education (full dataset)</dcterms:title>
                 </rdf:Description>
 
-                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204820">
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140414164026">
                     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:20Z</prov:startedAtTime>
-                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:21Z</prov:endedAtTime>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:40:26Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:40:33Z</prov:endedAtTime>
                     <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
                     <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
                     <prov:used>
@@ -57,10 +57,10 @@
                     <rdfs:comment xml:lang="en">Structure of dataset EDULIT_DS retrieved from source and saved to local filesystem.</rdfs:comment>
                 </rdf:Description>
 
-                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204822">
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140414164033">
                     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:22Z</prov:startedAtTime>
-                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:23Z</prov:endedAtTime>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:40:33Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:41:07Z</prov:endedAtTime>
                     <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
                     <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
                     <prov:used>
@@ -84,10 +84,10 @@
                     <dcterms:title>Science, technology and innovation (full dataset)</dcterms:title>
                 </rdf:Description>
 
-                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204824">
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140414164107">
                     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:24Z</prov:startedAtTime>
-                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:25Z</prov:endedAtTime>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:41:07Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:41:14Z</prov:endedAtTime>
                     <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
                     <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
                     <prov:used>
@@ -107,10 +107,10 @@
                     <rdfs:comment xml:lang="en">Structure of dataset SCN_DS retrieved from source and saved to local filesystem.</rdfs:comment>
                 </rdf:Description>
 
-                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204826">
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140414164114">
                     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:26Z</prov:startedAtTime>
-                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:27Z</prov:endedAtTime>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:41:14Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:41:26Z</prov:endedAtTime>
                     <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
                     <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
                     <prov:used>
@@ -134,10 +134,10 @@
                     <dcterms:title>Feature films (full dataset)</dcterms:title>
                 </rdf:Description>
 
-                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204828">
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140414164126">
                     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:28Z</prov:startedAtTime>
-                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:29Z</prov:endedAtTime>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:41:26Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:41:28Z</prov:endedAtTime>
                     <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
                     <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
                     <prov:used>
@@ -157,10 +157,10 @@
                     <rdfs:comment xml:lang="en">Structure of dataset CUL_DS retrieved from source and saved to local filesystem.</rdfs:comment>
                 </rdf:Description>
 
-                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204830">
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140414164128">
                     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:30Z</prov:startedAtTime>
-                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:31Z</prov:endedAtTime>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:41:28Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:41:38Z</prov:endedAtTime>
                     <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
                     <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
                     <prov:used>
@@ -184,10 +184,10 @@
                     <dcterms:title>Communication and information (full dataset)</dcterms:title>
                 </rdf:Description>
 
-                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204832">
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140414164138">
                     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:32Z</prov:startedAtTime>
-                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:33Z</prov:endedAtTime>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:41:38Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:41:45Z</prov:endedAtTime>
                     <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
                     <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
                     <prov:used>
@@ -207,10 +207,10 @@
                     <rdfs:comment xml:lang="en">Structure of dataset CAI_DS retrieved from source and saved to local filesystem.</rdfs:comment>
                 </rdf:Description>
 
-                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204834">
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140414164145">
                     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:34Z</prov:startedAtTime>
-                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:35Z</prov:endedAtTime>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:41:45Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:42:00Z</prov:endedAtTime>
                     <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
                     <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
                     <prov:used>
@@ -234,10 +234,10 @@
                     <dcterms:title>Demographic and socio-economic (full dataset)</dcterms:title>
                 </rdf:Description>
 
-                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140415204836">
+                <rdf:Description rdf:about="http://uis.270a.info/provenance/activity/20140414164200">
                     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:36Z</prov:startedAtTime>
-                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-15T20:48:37Z</prov:endedAtTime>
+                    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:42:00Z</prov:startedAtTime>
+                    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-14T16:42:07Z</prov:endedAtTime>
                     <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
                     <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
                     <prov:used>
