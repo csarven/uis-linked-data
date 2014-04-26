@@ -10,10 +10,10 @@
 . ./uis.config.sh
 
 mkdir -p "$data"import
-#rm "$data"import/*stats*
+rm "$data"import/*stats*
 
 echo "Creating LODStats for Datasets"
-find "$data"import/*.nt -name "*[!Structure|uis.]" | while read i ; do lodstats -val "$i" > "$i".stats.ttl ; echo "Created $i.stats.ttl" ; done;
+find "$data"import/*.nt -not -name "*Structure*" -not -name "*uis\.*" -not -name "meta.nt" | while read i ; do lodstats -val "$i" > "$i".stats.ttl ; echo "Created $i.stats.ttl" ; done;
 
 echo Exporting "$namespace"graph/meta ;
 java "$JVM_ARGS" tdb.tdbquery --time --desc="$tdbAssembler" --results=n-triples 'CONSTRUCT { ?s ?p ?o } WHERE { GRAPH <'"$namespace"'graph/meta> { ?s ?p ?o } }' > "$data"import/meta.nt ;
@@ -29,7 +29,7 @@ find "$data"import/*stats.ttl -name "*[!Structure|uis.]" | while read i ; do sed
 #find "$data" -name "*[!Structure|prov].rdf" | while read i ; do file=$(basename "$i"); dataSetCode=${file%.*};
 #    lodstats -val "$data"import/graph.data.nt > "$data"import/graph.data.nt.stats.ttl
 #    done;
-#real    621m11.611s
-#user    618m19.191s
-#sys     1m8.596s
 
+#real    30m10.775s
+#user    29m19.740s
+#sys     0m49.048s

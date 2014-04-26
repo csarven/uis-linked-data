@@ -42,11 +42,11 @@ while read i ;
                     DataTypeLabel="Structure"
                     DataTypePath=".Structure"
                 fi
-        sleep 1
+#        sleep 1
                 dtstart=$(date +"%Y-%m-%dT%H:%M:%SZ") ;
                 dtstartd=$(echo "$dtstart" | sed 's/[^0-9]*//g') ;
-#        wget -c -t 1 --no-http-keep-alive "http://data.uis.unesco.org/restsdmx/sdmx.ashx/Get$GD/$DataSetCode" -O "$data""$DataSetCode""$DataTypePath".xml
-        sleep 1
+        wget -c -t 1 --no-http-keep-alive "http://data.uis.unesco.org/restsdmx/sdmx.ashx/Get$GD/$DataSetCode" -O "$data""$DataSetCode""$DataTypePath".xml
+#        sleep 1
                 dtend=$(date +"%Y-%m-%dT%H:%M:%SZ") ;
                 dtendd=$(echo "$dtend" | sed 's/[^0-9]*//g') ;
 
